@@ -10,7 +10,7 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 @Entity
-@Table(name = "user")
+@Table(name = "file")
 public class File extends TimeStamped {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
